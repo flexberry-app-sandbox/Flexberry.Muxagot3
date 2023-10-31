@@ -1,0 +1,43 @@
+﻿{
+  "applicationCaption": "Muxagot3",
+  "applicationTitle": "Muxagot3",
+  "items": [
+    {
+      "link": null,
+      "menuName": "muxagot3",
+      "caption": "Muxagot3",
+      "title": "Muxagot3",
+      "children": [
+        {
+          "link": "i-i-s-muxagot3-city-l",
+          "menuName": null,
+          "caption": "City",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-muxagot3-meteo-l",
+          "menuName": null,
+          "caption": "Meteo",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-muxagot3-home-l",
+          "menuName": null,
+          "caption": "Home",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-muxagot3-xran-l",
+          "menuName": null,
+          "caption": "XranL",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

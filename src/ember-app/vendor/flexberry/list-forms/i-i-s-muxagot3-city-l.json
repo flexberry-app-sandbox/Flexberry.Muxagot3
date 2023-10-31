@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-muxagot3-city-e",
+  "editForm": "i-i-s-muxagot3-city-e",
+  "external": false,
+  "caption": "City",
+  "name": "IISMuxagot3CityL",
+  "className": "CityL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-muxagot3-city",
+      "modelProjection": "CityL"
+    }
+  ]
+}

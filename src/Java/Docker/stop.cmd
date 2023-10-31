@@ -1,0 +1,1 @@
+docker-compose -p muxagot3-java down

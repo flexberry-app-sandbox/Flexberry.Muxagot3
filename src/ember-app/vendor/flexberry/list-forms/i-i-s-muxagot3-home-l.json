@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-muxagot3-home-e",
+  "editForm": "i-i-s-muxagot3-home-e",
+  "external": false,
+  "caption": "Home",
+  "name": "IISMuxagot3homeL",
+  "className": "homeL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-muxagot3-home",
+      "modelProjection": "homeL"
+    }
+  ]
+}

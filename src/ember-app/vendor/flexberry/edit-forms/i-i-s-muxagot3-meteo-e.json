@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Meteo",
+  "name": "IISMuxagot3meteoE",
+  "className": "meteoE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-muxagot3-meteo",
+      "modelProjection": "meteoE"
+    }
+  ]
+}

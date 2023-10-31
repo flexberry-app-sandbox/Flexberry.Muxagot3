@@ -1,0 +1,165 @@
+﻿{
+  "name": "IISMuxagot3home",
+  "modelName": "i-i-s-muxagot3-home",
+  "className": "home",
+  "nameSpace": "IIS.Muxagot3",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "адрес",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "долгота",
+      "type": "decimal",
+      "flexberryType": "double",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "имя",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "широта",
+      "type": "decimal",
+      "flexberryType": "double",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "city",
+      "relatedTo": "i-i-s-muxagot3-city",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "homeE",
+      "modelName": "i-i-s-muxagot3-home",
+      "attrs": [
+        {
+          "name": "адрес",
+          "caption": "Адрес",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "долгота",
+          "caption": "Долгота",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "широта",
+          "caption": "Широта",
+          "hidden": false,
+          "index": 2
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "homeL",
+      "modelName": "i-i-s-muxagot3-home",
+      "attrs": [
+        {
+          "name": "адрес",
+          "caption": "Адрес",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "долгота",
+          "caption": "Долгота",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "широта",
+          "caption": "Широта",
+          "hidden": false,
+          "index": 2
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "ЗданиеE",
+      "modelName": "i-i-s-muxagot3-home",
+      "attrs": [
+        {
+          "name": "адрес",
+          "caption": "Адрес",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "долгота",
+          "caption": "Долгота",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "широта",
+          "caption": "Широта",
+          "hidden": false,
+          "index": 2
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "ЗданиеL",
+      "modelName": "i-i-s-muxagot3-home",
+      "attrs": [
+        {
+          "name": "адрес",
+          "caption": "Адрес",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "долгота",
+          "caption": "Долгота",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "широта",
+          "caption": "Широта",
+          "hidden": false,
+          "index": 2
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

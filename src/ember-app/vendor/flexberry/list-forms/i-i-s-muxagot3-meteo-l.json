@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-muxagot3-meteo-e",
+  "editForm": "i-i-s-muxagot3-meteo-e",
+  "external": false,
+  "caption": "Meteo",
+  "name": "IISMuxagot3meteoL",
+  "className": "meteoL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-muxagot3-meteo",
+      "modelProjection": "meteoL"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-muxagot3-xran-e",
+  "editForm": "i-i-s-muxagot3-xran-e",
+  "external": false,
+  "caption": "",
+  "name": "IISMuxagot3XranL",
+  "className": "XranL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-muxagot3-xran",
+      "modelProjection": "XranL"
+    }
+  ]
+}

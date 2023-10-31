@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "",
+  "name": "IISMuxagot3XranE",
+  "className": "XranE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-muxagot3-xran",
+      "modelProjection": "XranE"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+﻿{
+  "name": "IISMuxagot3Xran",
+  "modelName": "i-i-s-muxagot3-xran",
+  "className": "Xran",
+  "nameSpace": "IIS.Muxagot3",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "iDИдентификатор",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "данные",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "метеостанцияID",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "настройки",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "meteo",
+      "relatedTo": "i-i-s-muxagot3-meteo",
+      "inverse": "xran"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "XranE",
+      "modelName": "i-i-s-muxagot3-xran",
+      "attrs": [
+        {
+          "name": "метеостанцияID",
+          "caption": "Метеостанция ID",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "настройки",
+          "caption": "Настройки",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "iDИдентификатор",
+          "caption": "I d идентификатор",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "данные",
+          "caption": "Данные",
+          "hidden": false,
+          "index": 3
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "XranL",
+      "modelName": "i-i-s-muxagot3-xran",
+      "attrs": [
+        {
+          "name": "iDИдентификатор",
+          "caption": "",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "данные",
+          "caption": "",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "метеостанцияID",
+          "caption": "",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "настройки",
+          "caption": "",
+          "hidden": false,
+          "index": 3
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

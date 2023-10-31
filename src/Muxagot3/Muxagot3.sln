@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Muxagot3.Objects", "Objects/Muxagot3.Objects.csproj", "d9334ec9-e69d-4878-9511-c78d84009a92"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Muxagot3.Tests", "Tests/Muxagot3.Tests.csproj", "0e9e59ec-85da-4ea5-9083-546fb0e0ce58"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Muxagot3.ODataBackend", "ODataBackend/Muxagot3.ODataBackend.csproj", "233a4d48-9959-4c2d-a9b7-c8036c332498"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Muxagot3.IntegrationTests", "IntegrationTests/Muxagot3.IntegrationTests.csproj", "5d739b2e-0982-4689-906b-b4eaa94e445e"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+Debug|Any CPU = Debug|Any CPU
+Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		d9334ec9-e69d-4878-9511-c78d84009a92.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		d9334ec9-e69d-4878-9511-c78d84009a92.Debug|Any CPU.Build.0 = Debug|Any CPU
+		d9334ec9-e69d-4878-9511-c78d84009a92.Release|Any CPU.ActiveCfg = Release|Any CPU
+		d9334ec9-e69d-4878-9511-c78d84009a92.Release|Any CPU.Build.0 = Release|Any CPU
+		0e9e59ec-85da-4ea5-9083-546fb0e0ce58.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		0e9e59ec-85da-4ea5-9083-546fb0e0ce58.Debug|Any CPU.Build.0 = Debug|Any CPU
+		0e9e59ec-85da-4ea5-9083-546fb0e0ce58.Release|Any CPU.ActiveCfg = Release|Any CPU
+		0e9e59ec-85da-4ea5-9083-546fb0e0ce58.Release|Any CPU.Build.0 = Release|Any CPU
+		233a4d48-9959-4c2d-a9b7-c8036c332498.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		233a4d48-9959-4c2d-a9b7-c8036c332498.Debug|Any CPU.Build.0 = Debug|Any CPU
+		233a4d48-9959-4c2d-a9b7-c8036c332498.Release|Any CPU.ActiveCfg = Release|Any CPU
+		233a4d48-9959-4c2d-a9b7-c8036c332498.Release|Any CPU.Build.0 = Release|Any CPU
+		5d739b2e-0982-4689-906b-b4eaa94e445e.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		5d739b2e-0982-4689-906b-b4eaa94e445e.Debug|Any CPU.Build.0 = Debug|Any CPU
+		5d739b2e-0982-4689-906b-b4eaa94e445e.Release|Any CPU.ActiveCfg = Release|Any CPU
+		5d739b2e-0982-4689-906b-b4eaa94e445e.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

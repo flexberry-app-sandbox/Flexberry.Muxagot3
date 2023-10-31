@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "City",
+  "name": "IISMuxagot3CityE",
+  "className": "CityE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-muxagot3-city",
+      "modelProjection": "CityE"
+    }
+  ]
+}
