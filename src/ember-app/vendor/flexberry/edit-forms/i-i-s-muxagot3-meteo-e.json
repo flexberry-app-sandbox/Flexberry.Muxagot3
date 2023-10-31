@@ -1,14 +1,5 @@
 ﻿{
-  "propertyLookup": [
-    {
-      "master": null,
-      "displayAttributeName": null,
-      "required": false,
-      "relationName": "City",
-      "projection": "CityL",
-      "detailModelName": null
-    }
-  ],
+  "propertyLookup": [],
   "external": false,
   "caption": "Meteo",
   "name": "IISMuxagot3meteoE",

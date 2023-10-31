@@ -174,8 +174,15 @@
           "relationName": "City",
           "belongsTo": [],
           "hidden": false,
-          "attrs": [],
-          "index": 8,
+          "attrs": [
+            {
+              "name": "название",
+              "caption": "",
+              "hidden": false,
+              "index": 8
+            }
+          ],
+          "index": -1,
           "type": "default",
           "caption": "",
           "name": "city",
@@ -253,8 +260,15 @@
           "relationName": "City",
           "belongsTo": [],
           "hidden": false,
-          "attrs": [],
-          "index": 8,
+          "attrs": [
+            {
+              "name": "название",
+              "caption": "",
+              "hidden": false,
+              "index": 8
+            }
+          ],
+          "index": -1,
           "type": "default",
           "caption": "",
           "name": "city",

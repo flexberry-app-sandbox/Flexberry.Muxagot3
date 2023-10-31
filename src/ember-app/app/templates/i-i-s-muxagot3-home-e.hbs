@@ -54,4 +54,14 @@
     }}
     {{flexberry-validationmessage error=(v-get validationModel "широта" "message")}}
   </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=true
+      value=model.city.название
+      class=(if (v-get validationModel.city "название" "isInvalid") "error")
+      label=(t "forms.i-i-s-muxagot3-home-e.city.название-caption")
+      data-test-i-i-s-muxagot3-home-e-city-название=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel.city "название" "message")}}
+  </div>
 </form>

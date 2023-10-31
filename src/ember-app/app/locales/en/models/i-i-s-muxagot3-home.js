@@ -9,6 +9,12 @@ export default {
       },
       широта: {
         __caption__: 'Широта'
+      },
+      city: {
+        __caption__: '',
+        название: {
+          __caption__: ''
+        }
       }
     },
     homeL: {
@@ -22,7 +28,10 @@ export default {
         __caption__: 'Широта'
       },
       city: {
-        __caption__: ''
+        __caption__: '',
+        название: {
+          __caption__: ''
+        }
       }
     },
     ЗданиеE: {
