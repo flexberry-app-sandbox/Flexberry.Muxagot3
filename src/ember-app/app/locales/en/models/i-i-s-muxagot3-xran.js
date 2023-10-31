@@ -26,6 +26,15 @@ export default {
       },
       настройки: {
         __caption__: ''
+      },
+      meteo: {
+        __caption__: '',
+        city: {
+          __caption__: '',
+          название: {
+            __caption__: ''
+          }
+        }
       }
     }
   },

@@ -115,7 +115,44 @@
           "index": 3
         }
       ],
-      "belongsTo": [],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "meteo",
+          "belongsTo": [
+            {
+              "lookupValue": null,
+              "lookupValueField": null,
+              "relationName": "meteo.City",
+              "belongsTo": [],
+              "hidden": false,
+              "attrs": [
+                {
+                  "name": "название",
+                  "caption": "",
+                  "hidden": false,
+                  "index": 4
+                }
+              ],
+              "index": -1,
+              "type": null,
+              "caption": "",
+              "name": "city",
+              "relatedTo": "i-i-s-muxagot3-city",
+              "inverse": null
+            }
+          ],
+          "hidden": false,
+          "attrs": [],
+          "index": -1,
+          "type": "default",
+          "caption": "",
+          "name": "meteo",
+          "relatedTo": "i-i-s-muxagot3-meteo",
+          "inverse": null
+        }
+      ],
       "hasMany": []
     }
   ],

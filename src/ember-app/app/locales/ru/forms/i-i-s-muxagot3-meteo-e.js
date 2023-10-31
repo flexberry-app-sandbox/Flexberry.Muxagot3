@@ -8,7 +8,7 @@ export default {
   'iDИдентификатор-caption': 'I d идентификатор',
   'данные-caption': 'Данные',
   'метеостанцияID-caption': 'Метеостанция ID',
-  'city.название-caption': '',
   'city-caption': '',
-  'xran-caption': 'Xran'
+  'xran-caption': 'Xran',
+  'city.название-caption': ''
 };

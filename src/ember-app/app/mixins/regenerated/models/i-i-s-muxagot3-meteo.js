@@ -113,8 +113,8 @@ export let defineProjections = function (modelClass) {
     данные: attr('Данные', { index: 6 }),
     метеостанцияID: attr('Метеостанция ID', { index: 7 }),
     city: belongsTo('i-i-s-muxagot3-city', '', {
-      название: attr('', { index: 8 })
-    }, { index: -1, hidden: true }),
+
+    }, { index: 8 }),
     xran: hasMany('i-i-s-muxagot3-xran', 'Xran', {
       метеостанцияID: attr('Метеостанция ID', { index: 0 }),
       настройки: attr('Настройки', { index: 1 }),

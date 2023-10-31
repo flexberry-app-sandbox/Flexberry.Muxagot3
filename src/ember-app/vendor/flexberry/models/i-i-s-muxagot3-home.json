@@ -84,15 +84,8 @@
           "relationName": "City",
           "belongsTo": [],
           "hidden": false,
-          "attrs": [
-            {
-              "name": "название",
-              "caption": "",
-              "hidden": false,
-              "index": 3
-            }
-          ],
-          "index": -1,
+          "attrs": [],
+          "index": 3,
           "type": "default",
           "caption": "",
           "name": "city",

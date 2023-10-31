@@ -33,12 +33,14 @@ namespace IIS.Muxagot3
             "МетеостанцияID as \'Метеостанция ID\'",
             "Настройки as \'Настройки\'",
             "IDИдентификатор as \'I d идентификатор\'",
-            "Данные as \'Данные\'"})]
+            "Данные as \'Данные\'",
+            "meteo.City"})]
     [View("XranL", new string[] {
             "IDИдентификатор",
             "Данные",
             "МетеостанцияID",
-            "Настройки"})]
+            "Настройки",
+            "meteo.City.Название"})]
     public class Xran : ICSSoft.STORMNET.DataObject
     {
         

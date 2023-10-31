@@ -54,8 +54,8 @@ export let defineProjections = function (modelClass) {
     долгота: attr('Долгота', { index: 1 }),
     широта: attr('Широта', { index: 2 }),
     city: belongsTo('i-i-s-muxagot3-city', '', {
-      название: attr('', { index: 3 })
-    }, { index: -1, hidden: true })
+
+    }, { index: 3 })
   });
 
   modelClass.defineProjection('homeL', 'i-i-s-muxagot3-home', {

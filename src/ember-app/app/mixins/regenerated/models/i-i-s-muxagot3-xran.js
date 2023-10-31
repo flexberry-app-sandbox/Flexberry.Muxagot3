@@ -60,6 +60,11 @@ export let defineProjections = function (modelClass) {
     iDИдентификатор: attr('', { index: 0 }),
     данные: attr('', { index: 1 }),
     метеостанцияID: attr('', { index: 2 }),
-    настройки: attr('', { index: 3 })
+    настройки: attr('', { index: 3 }),
+    meteo: belongsTo('i-i-s-muxagot3-meteo', '', {
+      city: belongsTo('i-i-s-muxagot3-city', '', {
+        название: attr('', { index: 4 })
+      }, { index: -1, hidden: true })
+    }, { index: -1, hidden: true })
   });
 };

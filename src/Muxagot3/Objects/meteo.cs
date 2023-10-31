@@ -38,7 +38,7 @@ namespace IIS.Muxagot3
             "IDИдентификатор as \'I d идентификатор\'",
             "Данные as \'Данные\'",
             "МетеостанцияID as \'Метеостанция ID\'",
-            "City.Название"})]
+            "City"})]
     [AssociatedDetailViewAttribute("meteoE", "Xran", "XranE", true, "", "Xran", true, new string[] {
             ""})]
     [View("meteoL", new string[] {

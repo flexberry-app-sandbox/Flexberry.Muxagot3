@@ -105,14 +105,20 @@
     {{flexberry-validationmessage error=(v-get validationModel "метеостанцияID" "message")}}
   </div>
   <div class="field">
-    {{flexberry-field
-      readonly=true
-      value=model.city.название
-      class=(if (v-get validationModel.city "название" "isInvalid") "error")
-      label=(t "forms.i-i-s-muxagot3-meteo-e.city.название-caption")
-      data-test-i-i-s-muxagot3-meteo-e-city-название=true
+    <label>{{t "forms.i-i-s-muxagot3-meteo-e.city-caption"}}</label>
+    {{flexberry-lookup
+      choose="showLookupDialog"
+      remove="removeLookupValue"
+      value=model.city
+      relationName="city"
+      projection="CityL"
+      title=(t "forms.i-i-s-muxagot3-meteo-e.city-caption")
+      readonly=readonly
+      componentName="cityLookup"
+      class=(if (v-get validationModel "city" "isInvalid") "error")
+      data-test-i-i-s-muxagot3-meteo-e-city=true
     }}
-    {{flexberry-validationmessage error=(v-get validationModel.city "название" "message")}}
+    {{flexberry-validationmessage error=(v-get validationModel "city" "message")}}
   </div>
   <div class="field">
     <label>{{t "forms.i-i-s-muxagot3-meteo-e.xran-caption"}}</label>
