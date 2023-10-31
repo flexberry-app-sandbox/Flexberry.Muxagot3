@@ -35,7 +35,8 @@ namespace IIS.Muxagot3
     [View("homeL", new string[] {
             "Адрес as \'Адрес\'",
             "Долгота as \'Долгота\'",
-            "Широта as \'Широта\'"})]
+            "Широта as \'Широта\'",
+            "City"})]
     [View("ЗданиеE", new string[] {
             "Адрес as \'Адрес\'",
             "Долгота as \'Долгота\'",
@@ -43,7 +44,8 @@ namespace IIS.Muxagot3
     [View("ЗданиеL", new string[] {
             "Адрес as \'Адрес\'",
             "Долгота as \'Долгота\'",
-            "Широта as \'Широта\'"})]
+            "Широта as \'Широта\'",
+            "City"})]
     public class home : ICSSoft.STORMNET.DataObject
     {
         

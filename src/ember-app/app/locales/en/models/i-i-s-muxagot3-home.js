@@ -20,6 +20,9 @@ export default {
       },
       широта: {
         __caption__: 'Широта'
+      },
+      city: {
+        __caption__: ''
       }
     },
     ЗданиеE: {
@@ -42,6 +45,9 @@ export default {
       },
       широта: {
         __caption__: 'Широта'
+      },
+      city: {
+        __caption__: ''
       }
     }
   },

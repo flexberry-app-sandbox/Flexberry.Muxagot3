@@ -167,7 +167,22 @@
           "index": 7
         }
       ],
-      "belongsTo": [],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "City",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [],
+          "index": 8,
+          "type": "default",
+          "caption": "",
+          "name": "city",
+          "relatedTo": "i-i-s-muxagot3-city",
+          "inverse": null
+        }
+      ],
       "hasMany": [
         {
           "projectionName": "XranE",
@@ -231,7 +246,22 @@
           "index": 7
         }
       ],
-      "belongsTo": [],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "City",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [],
+          "index": 8,
+          "type": "default",
+          "caption": "",
+          "name": "city",
+          "relatedTo": "i-i-s-muxagot3-city",
+          "inverse": null
+        }
+      ],
       "hasMany": []
     },
     {

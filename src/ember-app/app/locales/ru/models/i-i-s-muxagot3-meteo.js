@@ -25,6 +25,9 @@ export default {
       метеостанцияID: {
         __caption__: 'Метеостанция ID'
       },
+      city: {
+        __caption__: ''
+      },
       xran: {
         __caption__: 'Xran',
         метеостанцияID: {
@@ -65,6 +68,9 @@ export default {
       },
       метеостанцияID: {
         __caption__: 'Метеостанция ID'
+      },
+      city: {
+        __caption__: ''
       }
     },
     МетеостанцияE: {

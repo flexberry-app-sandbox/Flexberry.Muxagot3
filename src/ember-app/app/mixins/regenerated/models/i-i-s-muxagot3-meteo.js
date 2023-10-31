@@ -112,6 +112,9 @@ export let defineProjections = function (modelClass) {
     iDИдентификатор: attr('I d идентификатор', { index: 5 }),
     данные: attr('Данные', { index: 6 }),
     метеостанцияID: attr('Метеостанция ID', { index: 7 }),
+    city: belongsTo('i-i-s-muxagot3-city', '', {
+
+    }, { index: 8 }),
     xran: hasMany('i-i-s-muxagot3-xran', 'Xran', {
       метеостанцияID: attr('Метеостанция ID', { index: 0 }),
       настройки: attr('Настройки', { index: 1 }),
@@ -128,7 +131,10 @@ export let defineProjections = function (modelClass) {
     влажность: attr('Влажность', { index: 4 }),
     iDИдентификатор: attr('I d идентификатор', { index: 5 }),
     данные: attr('Данные', { index: 6 }),
-    метеостанцияID: attr('Метеостанция ID', { index: 7 })
+    метеостанцияID: attr('Метеостанция ID', { index: 7 }),
+    city: belongsTo('i-i-s-muxagot3-city', '', {
+
+    }, { index: 8 })
   });
 
   modelClass.defineProjection('МетеостанцияE', 'i-i-s-muxagot3-meteo', {

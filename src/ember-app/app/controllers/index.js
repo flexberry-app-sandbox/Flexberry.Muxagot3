@@ -28,19 +28,19 @@ export default Controller.extend({
             link: 'i-i-s-muxagot3-meteo-l',
             caption: i18n.t('forms.application.sitemap.muxagot3.i-i-s-muxagot3-meteo-l.caption'),
             title: i18n.t('forms.application.sitemap.muxagot3.i-i-s-muxagot3-meteo-l.title'),
-            icon: 'chart line',
+            icon: 'chart bar',
             children: null
           }, {
             link: 'i-i-s-muxagot3-home-l',
             caption: i18n.t('forms.application.sitemap.muxagot3.i-i-s-muxagot3-home-l.caption'),
             title: i18n.t('forms.application.sitemap.muxagot3.i-i-s-muxagot3-home-l.title'),
-            icon: 'calendar',
+            icon: 'chart bar',
             children: null
           }, {
             link: 'i-i-s-muxagot3-xran-l',
             caption: i18n.t('forms.application.sitemap.muxagot3.i-i-s-muxagot3-xran-l.caption'),
             title: i18n.t('forms.application.sitemap.muxagot3.i-i-s-muxagot3-xran-l.title'),
-            icon: 'edit',
+            icon: 'tasks',
             children: null
           }]
         }
