@@ -22,25 +22,24 @@ export default Controller.extend({
             link: 'i-i-s-muxagot3-city-l',
             caption: i18n.t('forms.application.sitemap.muxagot3.i-i-s-muxagot3-city-l.caption'),
             title: i18n.t('forms.application.sitemap.muxagot3.i-i-s-muxagot3-city-l.title'),
-            icon: 'calendar',
             children: null
           }, {
             link: 'i-i-s-muxagot3-meteo-l',
             caption: i18n.t('forms.application.sitemap.muxagot3.i-i-s-muxagot3-meteo-l.caption'),
             title: i18n.t('forms.application.sitemap.muxagot3.i-i-s-muxagot3-meteo-l.title'),
-            icon: 'address card',
+            icon: 'folder open',
             children: null
           }, {
             link: 'i-i-s-muxagot3-home-l',
             caption: i18n.t('forms.application.sitemap.muxagot3.i-i-s-muxagot3-home-l.caption'),
             title: i18n.t('forms.application.sitemap.muxagot3.i-i-s-muxagot3-home-l.title'),
-            icon: 'archive',
+            icon: 'chart line',
             children: null
           }, {
             link: 'i-i-s-muxagot3-xran-l',
             caption: i18n.t('forms.application.sitemap.muxagot3.i-i-s-muxagot3-xran-l.caption'),
             title: i18n.t('forms.application.sitemap.muxagot3.i-i-s-muxagot3-xran-l.title'),
-            icon: 'chart bar',
+            icon: 'briefcase',
             children: null
           }]
         }
